@@ -1,13 +1,17 @@
-baseurl: "https://monohue.net"
-githuburl: "https://github.com/Monohue"
 name: Melchior
 slogan: Exploring the very nature of science.
 description: MonoHue's Blog.
+baseurl: "https://monohue.net"
+githuburl: "https://github.com/Monohue"
+websuffix: " - Melchior"
+
 paginate: 10
 paginate_path: "page:num"
-excerpt_separator:  "<!-- more -->"
-websuffix: " - Melchior"
+
 lighttheme: "light"
 darktheme: "dark"
+excerpt_separator: "<!-- more -->"
+markdown: kramdown
+
 sass:
   style: compressed
